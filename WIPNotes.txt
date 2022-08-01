@@ -30,7 +30,7 @@ Should:
 		- If input continues to occur, execute the cancel animation
 		- If input is released, execute the powered up move
 	- wind-up
-		- If new inputs result in a different move (single button to multiple buttons, different move in chain), blend between the wind-up animations, and execute the new move instead, skipping the executed number of frames.
+		- If new inputs result in a different move (single button to multiple buttons, different move from same chain (idle or another move)), blend between the wind-up animations, and execute the new move instead, skipping the executed number of frames.
 		- If new inputs result in a move in a chain, queue up the chained move to occur on the first recovery frame.
 	- active
 		- If within a few frames of the end of active, and inputs result in a move in a chain, queue up the selected move and execute on first recovery frame. 
