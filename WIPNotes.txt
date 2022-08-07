@@ -68,5 +68,7 @@ Single Move Animations should use anim notifies to set flags on the character co
 	- Signal acceptable time to buffer to another move
 	- Signal end of recovery frames	
 
+Use animation segments to seperate windup, active and recovery segments of an animation.
+
 Add event for cancelling current move, clearing any active hit-boxes, states etc.
 
